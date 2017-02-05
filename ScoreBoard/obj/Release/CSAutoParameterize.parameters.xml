@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ScoreBoardContext-Web.config Connection String" description="ScoreBoardContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=ScoreBoardContext-20160323233330; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|ScoreBoardContext-20160323233330.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\CodeDojo\\York\\CodeGolf2\\ScoreBoard\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ScoreBoardContext']/@connectionString" />
+  </parameter>
+</parameters>
